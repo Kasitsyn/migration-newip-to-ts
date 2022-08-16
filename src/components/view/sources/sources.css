@@ -8,6 +8,14 @@
     font: 300 1em 'Fira Sans', sans-serif;
 }
 
+@media (max-width: 320px) {
+    .sources {
+        flex-wrap: wrap;
+        width: fit-content;
+        height: 50vh;
+    }
+}
+
 .source__item {
     background: none;
     border: 2px solid #30c5ff;
@@ -32,3 +40,4 @@
     font-weight: 400;
     white-space: nowrap;
 }
+
