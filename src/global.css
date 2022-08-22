@@ -2,6 +2,10 @@ body {
     color: #fff;
     background: #17181c;
     font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 90vh;
 }
 
 header {
@@ -29,7 +33,7 @@ footer {
     grid-template-rows: 1fr 1fr;
     align-items: center;
     justify-content: center;
-    align-self: end;
+    align-self: center;
 }
 footer .copyright {
     font-size: 14px;
